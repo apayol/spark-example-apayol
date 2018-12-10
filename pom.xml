@@ -52,7 +52,7 @@
 				<version>0.4.4</version>
 				<configuration>
 					<jdkVersion>1.8</jdkVersion>
-					<appName>spark-example-TU_NOMBRE_DE_USUARIO</appName>
+					<appName>spark-example-apayol</appName>
 					<processTypes>
 						<!-- Tell Heroku how to launch your application -->
 						<web>java -jar ./target/pruebasSparkJava-0.0.1-jar-with-dependencies.jar</web>
@@ -61,4 +61,31 @@
 			</plugin>
 		</plugins>
 	</build>  
+	<dependencies>
+		<dependency>
+			<groupId>org.mockito</groupId>
+			<artifactId>mockito-all</artifactId>
+			<version>1.10.19</version>
+		</dependency>
+		<dependency>
+			<groupId>org.hamcrest</groupId>
+			<artifactId>hamcrest-library</artifactId>
+			<version>1.3</version>
+		</dependency>
+		<dependency>
+			<groupId>com.sparkjava</groupId>
+			<artifactId>spark-core</artifactId>
+			<version>2.7.2</version>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-simple</artifactId>
+			<version>1.7.25</version>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.10</version>
+		</dependency>
+	</dependencies>
 </project>
